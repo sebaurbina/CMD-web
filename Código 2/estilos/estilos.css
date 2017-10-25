@@ -1,11 +1,72 @@
 
 
 .intro-header {
-    padding-top: 343px;
-    padding-bottom: 343px;
-    padding-left: 908px;
+    padding-top: 250px;
+    padding-bottom: 250px;
     background: url(../img/christopher-gower.jpg) no-repeat center center;
     background-size: cover;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.intro-message {
+    position: relative;
+    background: rgba(221,225,224,0.75);
+    padding-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.intro-message>h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+  color: #0074d5;
+ 
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons i {
+  font-size: 80%;
+}
+
+.botonHeaderRedes
+{
+    background-color: #7edf8d;
+}
+
+.network-name
+{
+    color: #0074d5;
+}
+
+@media(max-width:767px) {
+  /*.intro-message {
+    
+  }*/
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
 }
 
 .barra-navegacion 
@@ -63,22 +124,6 @@ a.navbar-brand {
 
 div#navbarResponsive.collapse.navbar-collapse {
     max-width: 350px;
-}
-
-.llamado
-{
-/* Llamada a la acción en header: */
-background-image: linear-gradient(-246deg, rgba(0,238,26,0.40) 50%, #00D90B 91%);
-border: 2px solid #979797;
-border-radius: 30px;
-display: inline-block;
-padding: 8px 0 0 0;
-
-/* Letras */
-font-family: Avenir-Black;
-font-size: 20px;
-color: #0074D5;
-letter-spacing: 0.59px;
 }
 
 .tutoriales
