@@ -1,0 +1,95 @@
+
+
+.intro-header {
+    padding-top: 343px;
+    padding-bottom: 343px;
+    padding-left: 908px;
+    background: url(../img/christopher-gower.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.barra-navegacion 
+{
+/* Rectangulo de barra de navegación */
+background: rgba(216,216,216,0.10);
+/*border: 1px solid #979797;*/
+padding: 0;
+}
+
+.barra-navegacion .img-fluid 
+{/*Logo imagen*/
+    max-width: 15%;
+    margin-right: 0;
+}
+
+img.img-fluid
+{
+    padding-left: 5px;
+}
+
+button.navbar-toggler
+{
+    margin-right: 3px;
+}
+
+.barra-navegacion .logo
+{
+/* Logo letras */
+font-family: Avenir-Black;
+font-size: 18px;
+color: #FFA000;
+letter-spacing: 0.27px;
+padding-left: 12px;
+}
+
+.nav-item .nav-link
+{
+/* Rectangle 2: */
+background: rgba(216,216,216,0.10);
+border: 1px solid #979797;
+border-radius: 20px;
+/* Crea una cuenta: */
+font-family: Avenir-Black;
+font-size: 16px;
+color: #0074D5;
+letter-spacing: 0.27px;
+margin-left: 15px;
+padding: 0 10px;
+}
+
+a.navbar-brand {
+    max-width: 300px;
+}
+
+div#navbarResponsive.collapse.navbar-collapse {
+    max-width: 350px;
+}
+
+.llamado
+{
+/* Llamada a la acción en header: */
+background-image: linear-gradient(-246deg, rgba(0,238,26,0.40) 50%, #00D90B 91%);
+border: 2px solid #979797;
+border-radius: 30px;
+display: inline-block;
+padding: 8px 0 0 0;
+
+/* Letras */
+font-family: Avenir-Black;
+font-size: 20px;
+color: #0074D5;
+letter-spacing: 0.59px;
+}
+
+.tutoriales
+{
+    margin-top: 30px;
+}
+
+.card
+{
+/* Rectangle 4: */
+background: #FFFFFF;
+border: 4px solid #DEDBDB;
+border-radius: 30px;
+}
